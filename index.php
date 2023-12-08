@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        .navbar{
+            padding-left: 100px;
+        }
+        .card-deck{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    
+     <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kanan.php">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+          <!-- Jumbotron -->
+
+      <div class="jumbotron jumbotron-fluid">
+        
+        <div class="container text-center">
+            <img src="https://cdn.idntimes.com/content-images/community/2022/01/182199938-515466606140937-4030425297270841921-n-bc4bbc58a86ec1f7a7589db4ab7cbdff-5dceff0ef0b5d52831bb5627eb65a751.jpg" width="300" height="300" class="rounded-circle">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+
+       <!-- About -->
+      <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>About </h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo molestiae provident dolorem doloremque labore aut cumque! Esse, officiis tempore, minus recusandae deleniti non mollitia impedit excepturi rerum obcaecati sequi ipsum?</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo molestiae provident dolorem doloremque labore aut cumque! Esse, officiis tempore, minus recusandae deleniti non mollitia impedit excepturi rerum obcaecati sequi ipsum?</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      
+    
+
+
+
+        <div class="card-deck">
+            <div class="card">
+                <a href="https://dewankomputer.com/2019/02/12/membuat-card-menu-pada-html-dengan-bootstrap-4/">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+           
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+        <div class="card-deck">
+            <div class="card">
+                <a href="https://dewankomputer.com/2019/02/12/membuat-card-menu-pada-html-dengan-bootstrap-4/">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+           
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/23/7f/b3/our-newly-refurbished.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+ 
+
+
+      
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
